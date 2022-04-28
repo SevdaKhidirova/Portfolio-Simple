@@ -1,0 +1,268 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+.header{
+    background-image: url(../Images/bg-masthead.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    opacity: .9;
+}
+.header .title{
+    text-align: center;
+    padding-top: 350px;
+}
+.header .title h1{
+    font-size: 80px;
+    font-family: 'Overpass', sans-serif;
+    letter-spacing: 4px;
+}
+.header .title p{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.header .title .findoutmore ,.download{
+    width: 200px;
+    height: 80px;
+    background-color: #196D87;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 3px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 60px;
+}
+.offer{
+    width: 100vw;
+    height: 49vh;
+    background-color: #F8F9FA;
+}
+.offer .offertextarea {
+    text-align: center;
+    padding-top: 80px;
+}
+.offer .offertextarea h2{
+    font-size: 35px;
+    font-family: 'Overpass', sans-serif;
+   
+}
+.offer .offertextarea p{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: gray;
+}
+.offer .offertextarea .offerbutton{
+    width: 200px;
+    height: 80px;
+    background-color: #030303;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 3px;
+    color: rgb(238, 217, 217);
+    font-family: sans-serif;
+    margin-top: 60px;
+}
+
+.services{
+    background-color: #196D87;
+    width: 100vw;
+    height: 49vh;
+}
+.services p{
+    color: #F2BC20;
+    font-weight: 600;
+}
+.services .what{
+    color: #fffefd;
+    font-weight: 600;
+    font-size: 50px;
+}
+.services .iconarea{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.clear{
+    clear: both;
+}
+
+
+.icons .phone,.pencil,.hand,.question{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    padding-top: 36px;
+    float: left;
+    text-align: center;
+    margin-left: 60px;
+    font-size: 35px;
+    color: #196D87;
+    cursor: pointer;
+   
+}
+.icons{
+    margin-left: 30%;
+    padding-top: 30px;
+}
+
+.textarea{
+    margin-left: 30%;
+    padding-top: 45px;
+    float: left;
+}
+.textarea .textareaphone,.texareapencil,.textareahand,.textareaquestion{
+    float: left;
+    width: 195px;
+    height: 60px;
+    color: white;
+}
+.welcome{
+    width: 100vw;
+    height: 70vh;
+    background-image: url(../Images/mash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.welcome .titlewelcome{
+    text-align: center;
+    padding-top: 200px;
+}
+.welcome .titlewelcome .welcometext{
+    font-size: 70px;
+}
+.portfolio{
+    width: 100vw;
+    height: 100vh;
+}
+.titleportfolio{
+    text-align: center;
+    padding-top: 70px;
+}
+.titleportfolio h3{
+    font-size: 60px;
+    font-family: sans-serif;
+}
+.titleportfolio p{
+    color: #F2BC20;
+    font-weight: bolder;
+}
+.portfolio .images{
+width: 60%;
+height: 70%;
+margin-left: 23%;
+}
+
+.image1{
+    background-image: url(../Images/portfolio-1.jpg);
+    width: 50%;
+    height: 50%;
+    float: left;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.image1:hover{
+    transform: scale(0.8);
+}
+
+.image1 p,h3{
+ padding-left: 10px;
+ margin-top: 50px;
+} 
+.image2{
+    background-image: url(../Images/portfolio-2.jpg);
+    width: 50%;
+    height: 50%;
+    float: left;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.image2:hover{
+    transform: scale(0.8);
+}
+.image3{
+    background-image: url(../Images/portfolio-3.jpg);
+    width: 50%;
+    height: 50%;
+    float: left;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.image3:hover{
+    transform: scale(0.8);
+}
+.image4{
+    background-image: url(../Images/portfolio-4.jpg);
+    width: 50%;
+    height: 50%;
+    float: left;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.image4:hover{
+    transform: scale(0.8);
+}
+.buttons{
+    width: 100%;
+    height: 40vh;
+    background-color: #196D87;
+}
+.center{
+    text-align: center;
+    padding-top: 70px;
+}
+.center h2{
+    font-size: 30px;
+}
+.click,.lookat{
+    width: 170px;
+    height: 60px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    margin: 30px;
+}
+.clear{
+    background-color: #ffffff;
+    color: #030303;
+}
+.lookat{
+    background-color: #030303;
+    color:rgb(255, 255, 255)
+}
+.map{
+    width: 100vw;
+    height: 40vh;
+}
+.copyright{
+    width: 100%;
+    height: 40vh;
+}
+.iconsc .fb,.tw,.gth{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #196D87;
+    text-align: center;
+    float: left;
+    margin-top: 60px;
+    margin-left: 40px;
+    color: white;
+    padding-top: 15px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.iconsc{
+    margin-left: 45%;
+    margin-top: 35px;
+}
+.copyright p{
+    padding-top: 150px;
+    text-align: center;
+    margin-left: 140px;
+}
